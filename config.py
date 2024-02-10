@@ -20,11 +20,11 @@ OWNER_USERNAME = getenv("OWNER_USERNAME","NEW_AMBOT")
 ## Fill these variables if you're deploying on heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")# Your heroku app name
 HEROKU_API_KEY = getenv("HEROKU_API_KEY") # Get it from http://dashboard.heroku.com/account
-UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/AbhiModszYT/PubliceMusicBot",)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/DSS18T/PubliceMusicBot-ithernals",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)# Fill this variable if your upstream repository is private
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Logs_Gban")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+z-zFH1Os1DVhMDE1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/naruto1715")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/beerussupportchat")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "900"))
